@@ -556,23 +556,28 @@ export default function DashboardPage() {
               </div>
             </div>
 
-            <div className="mt-8 flex w-full gap-4">
-              <Button
-                variant="outline"
-                size="lg"
-                className="flex-1 font-medium hover:bg-red-50 border-red-300 text-red-700"
-                onClick={() => handleSwipe("left")}
-              >
-                Skip
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="flex-1 font-medium hover:bg-green-50 border-green-300 text-green-700"
-                onClick={() => handleSwipe("right")}
-              >
-                Quick Add to Contacts
-              </Button>
+            <div className="mt-8 flex w-full gap-4 flex-col">
+              <div className="flex gap-4">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="flex-1 font-medium hover:bg-red-50 border-red-300 text-red-700"
+                  onClick={() => handleSwipe("left")}
+                >
+                  Skip
+                </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="flex-1 font-medium hover:bg-green-50 border-green-300 text-green-700"
+                  onClick={() => handleSwipe("right")}
+                >
+                  Quick Add to Contacts
+                </Button>
+              </div>
+              <p className="text-center text-sm text-slate-500 italic">
+                Tip: You can click the buttons above or swipe with your mouse/touch 👆
+              </p>
             </div>
           </div>
         </Card>
