@@ -228,6 +228,19 @@ export default function Page() {
                 <ChevronRight className="h-5 w-5 text-indigo-600" />
               </Link>
               <Link
+                href="/settings/voice-ai"
+                className="flex items-center justify-between rounded-lg border border-indigo-100 p-4 hover:bg-indigo-50 transition-all"
+              >
+                <div className="flex items-center gap-4">
+                  <MessageSquare className="h-5 w-5 text-indigo-600" />
+                  <div>
+                    <p className="font-medium text-slate-800">Voice AI Agent</p>
+                    <p className="text-sm text-slate-600">Manage voice interactions</p>
+                  </div>
+                </div>
+                <ChevronRight className="h-5 w-5 text-indigo-600" />
+              </Link>
+              <Link
                 href="/settings/social-media"
                 className="flex items-center justify-between rounded-lg border border-indigo-100 p-4 hover:bg-indigo-50 transition-all"
               >
