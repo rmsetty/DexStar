@@ -13,7 +13,7 @@ export default function LandingPage() {
         <div className="container flex h-20 items-center justify-between px-6">
           <div className="flex items-center space-x-2">
             <Network className="h-6 w-6 text-indigo-600" />
-            <span className="font-bold text-slate-800">NetworkAI Enterprise</span>
+            <span className="font-bold text-slate-800">Axia AI</span>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
             
@@ -277,7 +277,7 @@ export default function LandingPage() {
             <div className="flex flex-col items-center gap-6 text-center">
               <h2 className="text-3xl font-bold text-slate-800">Ready to Transform Your Business?</h2>
               <p className="max-w-[600px] text-lg text-slate-600">
-                Join leading enterprises using NetworkAI to revolutionize their networking and talent acquisition
+                Join leading enterprises using Axia AI to revolutionize their networking and talent acquisition
                 strategies.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -299,7 +299,7 @@ export default function LandingPage() {
             <div>
               <div className="flex items-center space-x-2">
                 <Network className="h-6 w-6 text-indigo-600" />
-                <span className="font-bold text-slate-800">NetworkAI Enterprise</span>
+                <span className="font-bold text-slate-800">Axia AI</span>
               </div>
               <p className="mt-4 text-sm text-slate-600">
                 Enterprise-grade networking solutions powered by artificial intelligence.
@@ -335,7 +335,7 @@ export default function LandingPage() {
           </div>
           <div className="mt-12 pt-8 border-t border-indigo-100">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-sm text-slate-600">© 2024 NetworkAI Enterprise. All rights reserved.</p>
+              <p className="text-sm text-slate-600">© 2024 Axia AI. All rights reserved.</p>
               <div className="flex gap-4">
                 <Link href="#" className="text-sm text-slate-600 hover:text-indigo-600">
                   Privacy Policy

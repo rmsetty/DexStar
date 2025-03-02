@@ -89,7 +89,7 @@ export default function Page() {
                   </div>
                   <div className="flex flex-col">
                     <h2 className="text-lg font-bold text-white group-hover:scale-105 transition-transform">
-                      NetworkAI
+                    Axia AI
                     </h2>
                     <span className="text-xs text-indigo-200">
                       Professional Networking
